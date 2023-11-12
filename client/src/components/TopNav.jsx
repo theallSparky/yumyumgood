@@ -42,11 +42,20 @@ const TopNav = () => {
                     : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-200'
                 }
             >
-        <AiOutlineClose 
-        onClick={()=>setSideNav(!sideNav)}
-        size={25} />
-
-
+        <AiOutlineClose onClick={()=>setSideNav(!sideNav)} size={25} 
+        className='absolute right-4 top-4 cursor-pointer'
+        />
+        <h2 className='text-2xl p-4'>YumYum<span className='text-orange-700 font-bold'>Good</span></h2>
+            <nav>
+                <ul className='flex flex-col p-4 text-gray-900'>
+                    <li className='text-xl py-4 flex'>
+                        <BsPerson size={25}
+                        className='mr-4 text-white bg-black rounded-full' 
+                        />
+                        My Account
+                    </li>
+                </ul>
+            </nav>
             </div>
     </div>
   )
