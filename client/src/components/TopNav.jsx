@@ -41,7 +41,13 @@ const TopNav = () => {
                     ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'
                     : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-200'
                 }
-            ></div>
+            >
+        <AiOutlineClose 
+        onClick={()=>setSideNav(!sideNav)}
+        size={25} />
+
+
+            </div>
     </div>
   )
 }
