@@ -7,7 +7,7 @@ import { MdOutlineFavorite, MdHelp } from 'react-icons/md';
 
 
 const TopNav = () => {
-    const [sideNav, setSideNav] = useState(true)
+    const [sideNav, setSideNav] = useState(false)
     console.log(sideNav)
   return (
     <div className='max-w-[1520] mx-auto flex justify-between items-center p-4'>
