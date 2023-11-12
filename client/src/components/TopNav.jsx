@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
-import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from 'react-icons/ai'
 import { BsFillCartFill, BsPerson} from 'react-icons/bs'
+import { TbTruckReturn } from 'react-icons/tb'
+import { FaGoogleWallet } from 'react-icons/fa'
+import { MdOutlineFavorite, MdHelp } from 'react-icons/md';
+
 
 const TopNav = () => {
     const [sideNav, setSideNav] = useState(true)
@@ -53,6 +57,24 @@ const TopNav = () => {
                         className='mr-4 text-white bg-black rounded-full' 
                         />
                         My Account
+                    </li>
+                    <li className='text-xl py-4 flex'>
+                        <TbTruckReturn size={25}
+                        className='mr-4 text-white bg-black rounded-full' 
+                        />
+                        Delivery
+                    </li>
+                    <li className='text-xl py-4 flex'>
+                        <FaGoogleWallet size={25}
+                        className='mr-4 text-white bg-black rounded-full' 
+                        />
+                        My Wallet
+                    </li>
+                    <li className='text-xl py-4 flex'>
+                        <MdHelp size={25}
+                        className='mr-4 text-white bg-black rounded-full' 
+                        />
+                        Help
                     </li>
                 </ul>
             </nav>
