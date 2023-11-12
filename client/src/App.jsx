@@ -1,5 +1,5 @@
 import TopNav from './components/TopNav'
-import Footer from './components/Footer'
+import Featured from './components/Featured'
 import './index.css'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='App'>
       <TopNav />
+      <Featured />
     </div>
   )
 }
