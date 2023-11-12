@@ -65,6 +65,12 @@ const TopNav = () => {
                         Delivery
                     </li>
                     <li className='text-xl py-4 flex'>
+                        <MdOutlineFavorite size={25}
+                        className='mr-4 text-white bg-black rounded-full' 
+                        />
+                        My Favorite
+                    </li>
+                    <li className='text-xl py-4 flex'>
                         <FaGoogleWallet size={25}
                         className='mr-4 text-white bg-black rounded-full' 
                         />
