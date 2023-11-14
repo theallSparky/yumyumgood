@@ -28,7 +28,7 @@ const Featured = () => {
         setCurrentIndex(newIndex)
     }
 
-    const  moveToSlide = (slideIndex) => {
+    const  moveToNextSlide = (slideIndex) => {
         setCurrentIndex(slideIndex)
     }
 
@@ -46,7 +46,10 @@ const Featured = () => {
         <div className='flex top-4 justify-center py-2'>
             {
                 sliders.map((sliderItems, slideIndex) => (
-                    <div className='text-2xl cursor-pointer'>
+                    <div 
+                    key={slideIndex}
+                    onClick={() => moveToNextSlide(slideIndex)}
+                    className='text-2xl cursor-pointer'>
                         <RxDotFilled/>
                     </div>
 
