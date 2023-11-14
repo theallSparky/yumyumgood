@@ -9,7 +9,8 @@ const Meal = () => {
             {
                 mealData.map((item)=>(
                     <div className='border-none hover:scale-105 duration-300'>
-                        <img src={item.image}/>
+                        <img src={item.image}
+                        className='w-full h-[200px] object-cover rounded-lg'/>
                     </div>
                 ))
             }
