@@ -43,7 +43,7 @@ export const topPicks = [
   },
   {
     id: 8,
-    title: 'chiken burger',
+    title: 'chicken burger',
     price: '$300',
     img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672332323/NetflixApp/chiken_burger_ncsmeh.webp',
   },
