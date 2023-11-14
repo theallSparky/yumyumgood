@@ -1,6 +1,6 @@
 import React from 'react'
 import { mealData } from '../data/data'
-import {ArrowSmRightIcon} from '@heroicons/react'
+import {ArrowSmRightIcon} from '@heroicons/react/outline'
 
 const Meal = () => {
   return (
@@ -20,7 +20,7 @@ const Meal = () => {
                             <p className='bg-orange-700 h-18 w-18 rounded-full -mt-10 text-white py-4 px-2 border-8'>{item.price}</p>
                         </div>
                         <div className='pl-2 py-4'>
-                            <p>View More</p>
+                            <p>View More<ArrowSmRightIcon className='w-5 ml-2'/></p>
                         </div>
                     </div>
                 ))
