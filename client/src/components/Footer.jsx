@@ -21,37 +21,37 @@ const Footer = () => {
         <div>
           <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
           <ul>
+          <li className='py-2 text-lg'>USA</li>
           <li className='py-2 text-sm'>New York</li>
-          <li className='py-2 text-sm'>USA</li>
-          <li className='py-2 text-sm'>India</li>
-          <li className='py-2 text-sm'>Canada</li>
+          <li className='py-2 text-sm'>Dallas</li>
+          <li className='py-2 text-sm'>Los Angeles</li>
           </ul>
         </div>
         <div>
           <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
           <ul>
-          <li className='py-2 text-sm'>New York</li>
-          <li className='py-2 text-sm'>USA</li>
-          <li className='py-2 text-sm'>India</li>
-          <li className='py-2 text-sm'>Canada</li>
+          <li className='py-2 text-lg'>Canada</li>
+          <li className='py-2 text-sm'>Montreal</li>
+          <li className='py-2 text-sm'>Vancouver</li>
+          <li className='py-2 text-sm'>Toronto</li>
           </ul>
         </div>
         <div>
           <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
           <ul>
-          <li className='py-2 text-sm'>New York</li>
-          <li className='py-2 text-sm'>USA</li>
-          <li className='py-2 text-sm'>India</li>
-          <li className='py-2 text-sm'>Canada</li>
+          <li className='py-2 text-lg'>Europe</li>
+          <li className='py-2 text-sm'>Barcelona</li>
+          <li className='py-2 text-sm'>Prague</li>
+          <li className='py-2 text-sm'>Venice</li>
           </ul>
         </div>
         <div>
           <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
           <ul>
-          <li className='py-2 text-sm'>New York</li>
-          <li className='py-2 text-sm'>USA</li>
-          <li className='py-2 text-sm'>India</li>
-          <li className='py-2 text-sm'>Canada</li>
+          <li className='py-2 text-lg'>India</li>
+          <li className='py-2 text-sm'>Delhi</li>
+          <li className='py-2 text-sm'>Chennai</li>
+          <li className='py-2 text-sm'>Mumbai</li>
           </ul>
         </div> 
       </div>
