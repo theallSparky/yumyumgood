@@ -4,7 +4,7 @@ import {ArrowSmRightIcon} from '@heroicons/react/outline'
 
 const Meal = () => {
     const [foods, setFoods] = useState(mealData)
-    const filterCategory =(category)=> {
+    const filterCategory = (category)=> {
         setFoods(
             mealData.filter((item)=>{
                 return item.category === category
@@ -19,7 +19,7 @@ const Meal = () => {
         <div className='flex flex-col lg:flex-row justify-center'>
             <div className='flex justify-center md:justify-center'>
                 <button
-                    onClick ={()=>filterCategory(mealData)}
+                    onClick ={()=>setFoods(mealData)}
                     className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700'>All</button>
                 <button 
                     onClick ={()=>filterCategory("pizza")}
