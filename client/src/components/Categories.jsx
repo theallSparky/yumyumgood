@@ -14,7 +14,8 @@ const Categories = () => {
                 className='p-4 flex justify-center items-center hover:scale-105 duration-300'>
                     <img 
                         className='object-cover rounded-xl w-40 h-10 cursor-pointer shadow-xl'
-                        src={item.image} />
+                        src={item.image}
+                        alt={item.name} />
                 </div>
             })}
         </div>
