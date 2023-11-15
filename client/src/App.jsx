@@ -1,3 +1,4 @@
+import Categories from './components/Categories'
 import TopPicks from './components/TopPicks'
 import Delivery from './components/Delivery'
 import TopNav from './components/TopNav'
@@ -14,6 +15,7 @@ function App() {
       <Delivery />
       <TopPicks />
       <Meal />
+      <Categories />
     </div>
   )
 }
