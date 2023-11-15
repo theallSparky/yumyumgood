@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import NewsLetter from './components/NewsLetter'
 import Categories from './components/Categories'
 import TopPicks from './components/TopPicks'
@@ -18,6 +19,7 @@ function App() {
       <Meal />
       <Categories />
       <NewsLetter />
+      <Footer />
     </div>
   )
 }
